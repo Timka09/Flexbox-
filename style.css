@@ -1,0 +1,59 @@
+.box1 {
+  width: 201px;
+  height: 201px;
+  background-color:yellow;
+  border: 3px solid black;
+  margin-top:5px ;
+}
+.kubiki1 {
+  display: flex;
+  justify-content: center;
+}
+.box1:nth-child(odd) {
+  background: green;
+}
+.kubiki2 {
+  display: flex;
+  margin-top: 201px;
+  justify-content: center;
+}
+.box2 {
+  width: 201px;
+  height: 201px;
+  background-color: green;
+  border: 3px solid black;
+  margin-top:-2px ;
+}
+.kubiki3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box2:nth-child(even) {
+  background: yellow;
+}
+.box3{
+  width: 201px;
+  height: 201px;
+  background-color: yellow;
+  border: 3px solid black;  
+}
+.kubiki4{
+margin-top: -1030px ;
+margin-left:411px ;
+}
+.box3:nth-child(even) {
+background-color:green ;
+}
+.kubiki5{
+margin-top:-620px ;
+margin-left:1030px ;
+}
+.box4{
+ width: 201px;
+  height: 201px;
+  background-color: green;
+  border: 3px solid black;     
+}
+.box4:nth-child(even) {
+background-color:yellow ;
+}
